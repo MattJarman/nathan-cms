@@ -2,8 +2,7 @@
   "kind": "collectionType",
   "collectionName": "experience",
   "info": {
-    "name": "Experience",
-    "description": ""
+    "name": "Experience"
   },
   "options": {
     "increments": true,
@@ -13,14 +12,14 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "unique": false
-    },
-    "dateRange": {
-      "type": "string",
+      "private": false,
       "required": true
     },
     "title": {
+      "type": "string",
+      "required": true
+    },
+    "dateRange": {
       "type": "string",
       "required": true
     },

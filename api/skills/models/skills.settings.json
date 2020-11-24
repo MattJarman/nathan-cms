@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills",
+  "info": {
+    "name": "Skills"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 15
+    },
+    "level": {
+      "default": 0,
+      "max": 100,
+      "required": true,
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

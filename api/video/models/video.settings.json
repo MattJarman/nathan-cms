@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "name": "Video",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "embedURL": {
+      "type": "string"
+    },
+    "externalURL": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -11,12 +11,12 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Link": {
+    "url": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "Icon": {
+    "icon": {
       "type": "enumeration",
       "enum": [
         "facebook",

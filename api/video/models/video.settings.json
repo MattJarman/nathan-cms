@@ -26,6 +26,12 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
     }
   }
 }

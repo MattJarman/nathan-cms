@@ -27,8 +27,8 @@
       "type": "integer",
       "default": 0,
       "required": false,
-      "private": true,
-      "unique": true,
+      "private": false,
+      "unique": false,
       "min": 0
     }
   }

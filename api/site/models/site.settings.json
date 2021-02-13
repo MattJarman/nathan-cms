@@ -10,7 +10,7 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Description": {
+    "description": {
       "type": "text"
     }
   }

@@ -1,3 +1,3 @@
-# Strapi application
+# Nathan CMS
 
-A quick description of your strapi application
+A Content Management System for [nathan-website](https://github.com/MattJarman/nathan-website). 

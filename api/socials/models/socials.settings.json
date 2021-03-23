@@ -22,7 +22,8 @@
         "facebook",
         "linkedin",
         "instagram",
-        "youtube"
+        "youtube",
+        "email"
       ],
       "unique": true,
       "required": true
